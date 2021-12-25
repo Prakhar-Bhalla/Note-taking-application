@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pack</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>Name</label>
+            <input type="text" id="name"/>
+        </div>
+        <div>
+            <label>Quantity</label>
+            <input type="number" id="quantity"/>
+        </div>
+        <div>
+            <label>Priority</label>
+            <select id="priority">
+                <option value="">Choose</option>
+                <option value="H">High</option>
+                <option value="M">Medium</option>
+                <option value="L">Low</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+    <button>Delete All</button>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Quantity</td>
+            <td>Priority</td>
+            <td>Complete</td>
+            <td>Delete</td>
+        </tr>
+    </table>
+    <script src="./build/bundle.js"></script>
+</body>
+</html>
